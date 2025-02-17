@@ -27,5 +27,9 @@ public class Book{
 		System.out.println("Author==>"+author);
 		System.out.println("Price ==>"+price);
 	}
+	public static void heading(){
+		
+		System.out.println("Details of Book: ");
+	}
 }
 

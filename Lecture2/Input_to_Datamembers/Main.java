@@ -7,9 +7,11 @@ public class Main{
 		book2.getInput();
 		Book book3 = new Book();
 		book3.getInput();
-
+		Book.heading();
 		book1.display();
+		Book.heading();
 		book2.display();
+		Book.heading();
 		book3.display();
 	}
 }
