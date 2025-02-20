@@ -12,7 +12,7 @@ public class Person{
 		this.age = age;
 
 	}
-	public static void display(){
+	public void display(){
 		System.out.println("ID: "+ id);
 
 		System.out.println("Name: "+ name);
